@@ -1,0 +1,1041 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "78225f29-a849-4566-a221-0fc28dd57577",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Cogent Position",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.8993607583666617,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "menuText",
+          "persistentUuid": "634373f6-9cf5-4558-a953-aedb1ab4e474",
+          "width": 0,
+          "x": 224,
+          "y": 126,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "text",
+              "type": "string",
+              "value": "Forward"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "menuText",
+          "persistentUuid": "7d344878-ca7c-4ed9-aa00-6b8288fbc76d",
+          "width": 0,
+          "x": 224,
+          "y": 192,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "text",
+              "type": "string",
+              "value": "Backward"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "menuText",
+          "persistentUuid": "9fae835c-c489-4ed4-89c8-3aecdd2201ce",
+          "width": 0,
+          "x": 224,
+          "y": 256,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "text",
+              "type": "string",
+              "value": "Left"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "menuText",
+          "persistentUuid": "da623210-5812-468c-857f-ac789d9fe922",
+          "width": 0,
+          "x": 224,
+          "y": 320,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "text",
+              "type": "string",
+              "value": "Right"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "customKeyText",
+          "persistentUuid": "eb250552-174a-43f1-a7ad-63def6c9a124",
+          "width": 0,
+          "x": 512,
+          "y": 320,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "assigned",
+              "type": "string",
+              "value": "Right"
+            },
+            {
+              "folded": true,
+              "name": "text",
+              "type": "string",
+              "value": "Right"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "customKeyText",
+          "persistentUuid": "c0947666-d736-42cc-8f97-b1b0e806301b",
+          "width": 0,
+          "x": 507,
+          "y": 128,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "assigned",
+              "type": "string",
+              "value": "Up"
+            },
+            {
+              "folded": true,
+              "name": "text",
+              "type": "string",
+              "value": "Forward"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "customKeyText",
+          "persistentUuid": "88ab8d4f-ac1a-4855-8234-92fc3dc6e812",
+          "width": 0,
+          "x": 507,
+          "y": 192,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "assigned",
+              "type": "string",
+              "value": "Down"
+            },
+            {
+              "folded": true,
+              "name": "text",
+              "type": "string",
+              "value": "Backward"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "customKeyText",
+          "persistentUuid": "62e30a99-18e2-4819-84aa-c4c62c51e118",
+          "width": 0,
+          "x": 507,
+          "y": 256,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "assigned",
+              "type": "string",
+              "value": "Left"
+            },
+            {
+              "folded": true,
+              "name": "text",
+              "type": "string",
+              "value": "Left"
+            }
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "menuText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "text",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "customKeyText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "text",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "folded": true,
+              "name": "assigned",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "menuText",
+                "=",
+                "menuText.VariableString(text)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "customKeyText",
+                "=",
+                "customKeyText.VariableString(assigned)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "customKeyText",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "customKeyText",
+                    "selected",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::SetOutline"
+                  },
+                  "parameters": [
+                    "customKeyText",
+                    "\"144;19;254\"",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "customKeyText",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "customKeyText",
+                    "CursorX()",
+                    "CursorY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "customKeyText",
+                    "selected",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::SetOutline"
+                  },
+                  "parameters": [
+                    "customKeyText",
+                    "\"144;19;254\"",
+                    "5"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::SetOutline"
+                      },
+                      "parameters": [
+                        "customKeyText",
+                        "\"255;255;255\"",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "customizeKey",
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "customKeyText",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "customKeyText",
+                "CursorX()",
+                "CursorY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "customizeKey",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "customKeyText"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "customizeKey",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::SetOutline"
+              },
+              "parameters": [
+                "customKeyText",
+                "\"144;19;254\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "customKeyText",
+                "selected",
+                "False"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "customKeyText",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "customKeyText",
+                    "CursorX()",
+                    "CursorY()",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "customKeyText",
+                    "=",
+                    "\"press a key or mouse button\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::SetOutline"
+                  },
+                  "parameters": [
+                    "customKeyText",
+                    "\"255;255;255\"",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "customizeKey",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "customKeyText",
+                    "selected",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "customizeKey",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "newKey",
+                "=",
+                "UntitledExtension::testCondition()"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "newKey",
+                    "!=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "customKeyText",
+                    "selected",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "customKeyText",
+                    "=",
+                    "VariableString(newKey)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "customKeyText",
+                    "selected",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "customizeKey",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "category": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "helpPath": "",
+      "iconUrl": "",
+      "name": "UntitledExtension",
+      "previewIconUrl": "",
+      "shortDescription": "",
+      "version": "",
+      "description": "",
+      "tags": [],
+      "authorIds": [],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "testCondition",
+          "fullName": "testCondition",
+          "functionType": "StringExpression",
+          "name": "testCondition",
+          "sentence": "Test Condition using child name _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "event",
+                    "=",
+                    "\"\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnyKeyPressed"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "event",
+                    "=",
+                    "LastPressedKey()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "event",
+                    "=",
+                    "\"LeftClick\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Right"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "event",
+                    "=",
+                    "\"RightClick\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnString"
+                  },
+                  "parameters": [
+                    "VariableString(event)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "string"
+          },
+          "parameters": [],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
